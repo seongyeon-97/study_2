@@ -17,7 +17,6 @@ public class Test10 {
 		System.out.println("Input : "+num);
 		System.out.println("Output : "+output);
 		
-		//github 사용하기 
-		// 코드 추가
+		
 	}
 }
