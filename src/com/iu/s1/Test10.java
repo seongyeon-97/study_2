@@ -7,14 +7,15 @@ public class Test10 {
 		System.out.println("-~-~- test10 start -~-~-");
 
 		Scanner sc = new Scanner(System.in);
-		System.out.print("정수를 입력해 주세요 - ");
+			
+		int input=10;
+		int output=0; 
 		
-		String input = sc.nextLine();
-		int num = Integer.parseInt(input);
-		int output = 0;
-		output = (num%4) + (num/4*10);
+		System.out.println("숫자를 입력하세요");
+		input = sc.nextInt();//ten
+		output = input/4*10+input%4;
 		
-		System.out.println("Input : "+num);
+		System.out.println("Input : "+input);
 		System.out.println("Output : "+output);
 		
 		
